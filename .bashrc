@@ -131,9 +131,9 @@ export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 # autojump
 . /usr/share/autojump/autojump.sh
 
-# my cool not startup startup things
-alias servus="/home/b/MEGA/0_Sync_Everywhere/086_automation/0_goodMorning/goodmorning.sh"
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
 
-# execute the github unblocker 
-alias unlock="/home/b/MEGA/0_Sync_Everywhere/051_timetracking/03_blocker/unlock.sh"
 
+alias audible="ffmpeg -activation_bytes 036b933a -i"
